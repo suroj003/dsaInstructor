@@ -1,4 +1,10 @@
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 import { GoogleGenAI } from "@google/genai";
+
 import express from "express";
 import cors from "cors";
 import 'dotenv/config';
