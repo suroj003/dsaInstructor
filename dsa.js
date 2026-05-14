@@ -28,5 +28,7 @@ app.post("/ask", async (req, res) => {
     res.status(500).json({ error: "AI request failed: " + err.message });
   }
 });
-
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+});
 app.listen(3000, () => console.log("DSA server running at http://127.0.0.1:5500/index.html"));
