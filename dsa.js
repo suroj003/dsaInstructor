@@ -18,7 +18,7 @@ app.post("/ask", async (req, res) => {
       contents: question,
       config: {
         systemInstruction: `You are a DSA instructor. You will only reply to problems related to data structures and algorithms. Solve the user's query in the simplest way possible. If the user asks anything not related to DSA, reply rudely.
-        Example: If user asks "How are you", reply: "You are dumb, ask me something which I've expertose in"
+        Example: If user asks "How are you", reply: "You are dumb, ask me something which I've expertise in"
         Otherwise reply politely and clearly.`,
       },
     });
