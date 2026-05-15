@@ -18,7 +18,11 @@ Frontend: HTML5, CSS3
 
 Logic: JavaScript
 
-Deployment: GitHub Pages
+Backend: NodeJS, ExpressJs
+
+Deployment: GitHub Pages & Render
+
+API: Gemini 3 Preview API
 
 📦 Local Installation
 If you want to run this project locally for development:
